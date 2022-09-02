@@ -1,5 +1,5 @@
 Analysis & Synthesis report for hello_world
-Wed Aug 31 18:52:17 2022
+Fri Sep 02 19:44:10 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Wed Aug 31 18:52:17 2022       ;
+; Analysis & Synthesis Status ; Successful - Fri Sep 02 19:44:10 2022       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; hello_world                                 ;
 ; Top-level Entity Name       ; hello_world                                 ;
@@ -160,12 +160,12 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------+
 ; Total logic elements                        ; 75    ;
 ;     -- Combinational with no register       ; 42    ;
-;     -- Register only                        ; 19    ;
-;     -- Combinational with a register        ; 14    ;
+;     -- Register only                        ; 20    ;
+;     -- Combinational with a register        ; 13    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 10    ;
-;     -- 3 input functions                    ; 14    ;
+;     -- 3 input functions                    ; 13    ;
 ;     -- 2 input functions                    ; 31    ;
 ;     -- 1 input functions                    ; 1     ;
 ;     -- 0 input functions                    ; 0     ;
@@ -183,8 +183,8 @@ https://fpgasoftware.intel.com/eula.
 ; I/O pins                                    ; 2     ;
 ; Maximum fan-out node                        ; CLK   ;
 ; Maximum fan-out                             ; 33    ;
-; Total fan-out                               ; 198   ;
-; Average fan-out                             ; 2.57  ;
+; Total fan-out                               ; 196   ;
+; Average fan-out                             ; 2.55  ;
 +---------------------------------------------+-------+
 
 
@@ -193,7 +193,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
-; |hello_world               ; 75 (75)     ; 33           ; 0          ; 2    ; 0            ; 42 (42)      ; 19 (19)           ; 14 (14)          ; 32 (32)         ; 0 (0)      ; |hello_world        ; hello_world ; work         ;
+; |hello_world               ; 75 (75)     ; 33           ; 0          ; 2    ; 0            ; 42 (42)      ; 20 (20)           ; 13 (13)          ; 32 (32)         ; 0 (0)      ; |hello_world        ; hello_world ; work         ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -219,13 +219,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Aug 31 18:52:02 2022
+    Info: Processing started: Fri Sep 02 19:43:56 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off hello_world -c hello_world
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file hello_world.vhd
-    Info (12022): Found design unit 1: hello_world-hello_world_behav File: C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/hello_world.vhd Line: 13
-    Info (12023): Found entity 1: hello_world File: C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/hello_world.vhd Line: 8
+    Info (12022): Found design unit 1: hello_world-hello_world_behav File: C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/hello_world.vhd Line: 12
+    Info (12023): Found entity 1: hello_world File: C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/hello_world.vhd Line: 7
 Warning (12162): EDA synthesis tool is specified as "Custom", but Library Mapping File is not specified
 Warning (12163): EDA synthesis tool is specified as "Custom", but VCC is not specified
 Warning (12164): EDA synthesis tool is specified as "Custom", but GND is not specified
@@ -238,9 +238,9 @@ Info (21057): Implemented 77 device resources after synthesis - the final resour
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 75 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4750 megabytes
-    Info: Processing ended: Wed Aug 31 18:52:17 2022
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4756 megabytes
+    Info: Processing ended: Fri Sep 02 19:44:10 2022
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:29
 
 

@@ -1,5 +1,5 @@
 -- Hello world with EPM240 CPLD
--- Blinking onboard LED connected to pin 77 every 2 secs
+-- Blinking onboard LED connected to pin 77 every 0.5 secs
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
@@ -21,7 +21,7 @@ process(CLK)
 begin
     if rising_edge(CLK) then
         COUNT <= COUNT + 1;
-		  if COUNT = 100000000 then -- 2 seconds (50MHz clock)
+		  if COUNT = 25000000 - 1 then -- 0.5 second (50MHz clock)
 				COUNT <= (others => '0');
 				TOGGLE <= not TOGGLE;
 		  end if;

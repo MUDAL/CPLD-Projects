@@ -1,5 +1,5 @@
 Fitter report for hello_world
-Wed Aug 31 18:52:21 2022
+Fri Sep 02 19:44:13 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -56,14 +56,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +-----------------------+---------------------------------------------+
-; Fitter Status         ; Successful - Wed Aug 31 18:52:21 2022       ;
+; Fitter Status         ; Successful - Fri Sep 02 19:44:13 2022       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; hello_world                                 ;
 ; Top-level Entity Name ; hello_world                                 ;
 ; Family                ; MAX II                                      ;
 ; Device                ; EPM240T100C5                                ;
 ; Timing Models         ; Final                                       ;
-; Total logic elements  ; 68 / 240 ( 28 % )                           ;
+; Total logic elements  ; 67 / 240 ( 28 % )                           ;
 ; Total pins            ; 2 / 80 ( 3 % )                              ;
 ; Total virtual pins    ; 0                                           ;
 ; UFM blocks            ; 0 / 1 ( 0 % )                               ;
@@ -147,24 +147,24 @@ The pin-out file can be found in C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Proje
 +---------------------------------------------+--------------------+
 ; Resource                                    ; Usage              ;
 +---------------------------------------------+--------------------+
-; Total logic elements                        ; 68 / 240 ( 28 % )  ;
-;     -- Combinational with no register       ; 35                 ;
+; Total logic elements                        ; 67 / 240 ( 28 % )  ;
+;     -- Combinational with no register       ; 34                 ;
 ;     -- Register only                        ; 12                 ;
 ;     -- Combinational with a register        ; 21                 ;
 ;                                             ;                    ;
 ; Logic element usage by number of LUT inputs ;                    ;
 ;     -- 4 input functions                    ; 10                 ;
-;     -- 3 input functions                    ; 14                 ;
+;     -- 3 input functions                    ; 13                 ;
 ;     -- 2 input functions                    ; 31                 ;
 ;     -- 1 input functions                    ; 1                  ;
 ;     -- 0 input functions                    ; 0                  ;
 ;                                             ;                    ;
 ; Logic elements by mode                      ;                    ;
-;     -- normal mode                          ; 37                 ;
+;     -- normal mode                          ; 36                 ;
 ;     -- arithmetic mode                      ; 31                 ;
-;     -- qfbk mode                            ; 7                  ;
+;     -- qfbk mode                            ; 8                  ;
 ;     -- register cascade mode                ; 0                  ;
-;     -- synchronous clear/load mode          ; 15                 ;
+;     -- synchronous clear/load mode          ; 17                 ;
 ;     -- asynchronous clear/load mode         ; 0                  ;
 ;                                             ;                    ;
 ; Total registers                             ; 33 / 240 ( 14 % )  ;
@@ -182,11 +182,11 @@ The pin-out file can be found in C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Proje
 ; Global signals                              ; 1                  ;
 ;     -- Global clocks                        ; 1 / 4 ( 25 % )     ;
 ; JTAGs                                       ; 0 / 1 ( 0 % )      ;
-; Average interconnect usage (total/H/V)      ; 7.0% / 7.5% / 6.4% ;
-; Peak interconnect usage (total/H/V)         ; 7.0% / 7.5% / 6.4% ;
+; Average interconnect usage (total/H/V)      ; 5.7% / 6.4% / 4.9% ;
+; Peak interconnect usage (total/H/V)         ; 5.7% / 6.4% / 4.9% ;
 ; Maximum fan-out                             ; 33                 ;
-; Highest non-global fan-out                  ; 14                 ;
-; Total fan-out                               ; 215                ;
+; Highest non-global fan-out                  ; 13                 ;
+; Total fan-out                               ; 212                ;
 ; Average fan-out                             ; 3.07               ;
 +---------------------------------------------+--------------------+
 
@@ -349,7 +349,7 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
-; |hello_world               ; 68 (68)     ; 33           ; 0          ; 2    ; 0            ; 35 (35)      ; 12 (12)           ; 21 (21)          ; 32 (32)         ; 7 (7)      ; |hello_world        ; hello_world ; work         ;
+; |hello_world               ; 67 (67)     ; 33           ; 0          ; 2    ; 0            ; 34 (34)      ; 12 (12)           ; 21 (21)          ; 32 (32)         ; 8 (8)      ; |hello_world        ; hello_world ; work         ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -387,24 +387,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------+
 ; Routing Resource Type ; Usage             ;
 +-----------------------+-------------------+
-; C4s                   ; 43 / 784 ( 5 % )  ;
-; Direct links          ; 5 / 888 ( < 1 % ) ;
+; C4s                   ; 32 / 784 ( 4 % )  ;
+; Direct links          ; 24 / 888 ( 3 % )  ;
 ; Global clocks         ; 1 / 4 ( 25 % )    ;
-; LAB clocks            ; 5 / 32 ( 16 % )   ;
-; LUT chains            ; 0 / 216 ( 0 % )   ;
-; Local interconnects   ; 72 / 888 ( 8 % )  ;
-; R4s                   ; 38 / 704 ( 5 % )  ;
+; LAB clocks            ; 6 / 32 ( 19 % )   ;
+; LUT chains            ; 1 / 216 ( < 1 % ) ;
+; Local interconnects   ; 77 / 888 ( 9 % )  ;
+; R4s                   ; 35 / 704 ( 5 % )  ;
 +-----------------------+-------------------+
 
 
 +--------------------------------------------------------------------------+
 ; LAB Logic Elements                                                       ;
 +--------------------------------------------+-----------------------------+
-; Number of Logic Elements  (Average = 7.56) ; Number of LABs  (Total = 9) ;
+; Number of Logic Elements  (Average = 7.44) ; Number of LABs  (Total = 9) ;
 +--------------------------------------------+-----------------------------+
 ; 1                                          ; 1                           ;
-; 2                                          ; 0                           ;
-; 3                                          ; 1                           ;
+; 2                                          ; 1                           ;
+; 3                                          ; 0                           ;
 ; 4                                          ; 1                           ;
 ; 5                                          ; 0                           ;
 ; 6                                          ; 0                           ;
@@ -431,62 +431,64 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+-----------------------------+
 ; 0                                           ; 0                           ;
 ; 1                                           ; 1                           ;
-; 2                                           ; 0                           ;
+; 2                                           ; 1                           ;
 ; 3                                           ; 0                           ;
-; 4                                           ; 1                           ;
-; 5                                           ; 1                           ;
-; 6                                           ; 0                           ;
+; 4                                           ; 0                           ;
+; 5                                           ; 0                           ;
+; 6                                           ; 1                           ;
 ; 7                                           ; 0                           ;
 ; 8                                           ; 0                           ;
 ; 9                                           ; 0                           ;
 ; 10                                          ; 4                           ;
 ; 11                                          ; 0                           ;
-; 12                                          ; 1                           ;
-; 13                                          ; 1                           ;
+; 12                                          ; 0                           ;
+; 13                                          ; 2                           ;
 +---------------------------------------------+-----------------------------+
 
 
 +-------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                       ;
 +-------------------------------------------------+-----------------------------+
-; Number of Signals Sourced Out  (Average = 6.78) ; Number of LABs  (Total = 9) ;
+; Number of Signals Sourced Out  (Average = 7.22) ; Number of LABs  (Total = 9) ;
 +-------------------------------------------------+-----------------------------+
 ; 0                                               ; 0                           ;
 ; 1                                               ; 1                           ;
-; 2                                               ; 0                           ;
+; 2                                               ; 1                           ;
 ; 3                                               ; 0                           ;
-; 4                                               ; 1                           ;
-; 5                                               ; 1                           ;
+; 4                                               ; 0                           ;
+; 5                                               ; 0                           ;
 ; 6                                               ; 2                           ;
 ; 7                                               ; 0                           ;
 ; 8                                               ; 0                           ;
 ; 9                                               ; 1                           ;
 ; 10                                              ; 3                           ;
+; 11                                              ; 1                           ;
 +-------------------------------------------------+-----------------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                       ;
 +---------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 8.78) ; Number of LABs  (Total = 9) ;
+; Number of Distinct Inputs  (Average = 9.44) ; Number of LABs  (Total = 9) ;
 +---------------------------------------------+-----------------------------+
 ; 0                                           ; 0                           ;
 ; 1                                           ; 0                           ;
-; 2                                           ; 1                           ;
-; 3                                           ; 0                           ;
-; 4                                           ; 0                           ;
-; 5                                           ; 2                           ;
-; 6                                           ; 1                           ;
-; 7                                           ; 1                           ;
+; 2                                           ; 0                           ;
+; 3                                           ; 1                           ;
+; 4                                           ; 2                           ;
+; 5                                           ; 0                           ;
+; 6                                           ; 0                           ;
+; 7                                           ; 0                           ;
 ; 8                                           ; 0                           ;
-; 9                                           ; 0                           ;
+; 9                                           ; 1                           ;
 ; 10                                          ; 0                           ;
-; 11                                          ; 2                           ;
+; 11                                          ; 3                           ;
 ; 12                                          ; 0                           ;
 ; 13                                          ; 0                           ;
 ; 14                                          ; 0                           ;
-; 15                                          ; 0                           ;
-; 16                                          ; 2                           ;
+; 15                                          ; 1                           ;
+; 16                                          ; 0                           ;
+; 17                                          ; 1                           ;
 +---------------------------------------------+-----------------------------+
 
 
@@ -529,7 +531,7 @@ Info (332111): Found 1 clocks
     Info (332111): ======== ============
     Info (332111):    1.000          CLK
 Info (186079): Completed User Assigned Global Signals Promotion Operation
-Info (186215): Automatically promoted signal "CLK" to use Global clock in PIN 12 File: C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/hello_world.vhd Line: 9
+Info (186215): Automatically promoted signal "CLK" to use Global clock in PIN 12 File: C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/hello_world.vhd Line: 8
 Info (186079): Completed Auto Global Promotion Operation
 Info (176234): Starting register packing
 Info (186468): Started processing fast register assignments
@@ -543,18 +545,18 @@ Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
-Info (170195): Router estimated average interconnect usage is 6% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 6% of the available device resources in the region that extends from location X0_Y0 to location X8_Y5
+Info (170195): Router estimated average interconnect usage is 5% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 5% of the available device resources in the region that extends from location X0_Y0 to location X8_Y5
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.22 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.11 seconds.
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/Hello World/output_files/hello_world.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 5071 megabytes
-    Info: Processing ended: Wed Aug 31 18:52:21 2022
+    Info: Peak virtual memory: 5072 megabytes
+    Info: Processing ended: Fri Sep 02 19:44:13 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
