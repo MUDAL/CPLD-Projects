@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Sep 29 15:46:19 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : uart_1
+Top-level Entity Name : uart_1
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 98 / 240 ( 41 % )
+Total pins : 2 / 80 ( 3 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,71 @@
+# Reading pref.tcl
+# do uart_1_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {uart_1.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:46:35 on Sep 29,2022
+# vcom -reportprogress 300 -93 -work work uart_1.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package maxii_atom_pack
+# -- Loading package maxii_components
+# -- Compiling entity uart_1
+# -- Compiling architecture structure of uart_1
+# End time: 15:46:35 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/UART/uart1_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:46:35 on Sep 29,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/OLAOLUWA/Desktop/VHDL/Intel_FPGA_Projects/UART/uart1_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_1_tb
+# -- Compiling architecture tb of uart_1_tb
+# End time: 15:46:35 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L maxii -L gate_work -L work -voptargs="+acc"  uart_1_tb
+# vsim -t 1ps -L maxii -L gate_work -L work -voptargs=""+acc"" uart_1_tb 
+# Start time: 15:46:36 on Sep 29,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_1_tb(tb)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading maxii.maxii_atom_pack(body)
+# Loading maxii.maxii_components
+# Loading work.uart_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading maxii.maxii_io(behave)
+# Loading maxii.maxii_lcell(vital_le_atom)
+# Loading maxii.maxii_asynch_lcell(vital_le)
+# Loading maxii.maxii_lcell_register(vital_le_reg)
+# ** Warning: Design size of 11653 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: OLAOLUWA  Hostname: LAPTOP-OS6SPMFM  ProcessID: 11448
+#           Attempting to use alternate WLF file "./wlft17c1a2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft17c1a2
+# view structure
+# End time: 15:46:45 on Sep 29,2022, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 3
