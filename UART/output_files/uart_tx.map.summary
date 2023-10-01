@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Sun Oct 01 17:24:34 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : uart_tx
+Top-level Entity Name : uart_tx
+Family : MAX II
+Total logic elements : 93
+Total pins : 2
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

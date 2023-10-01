@@ -1,0 +1,6 @@
+
+State Machine - |uart_tx|state
+Name state.PAUSE state.SEND_FRAME state.IDLE 
+state.IDLE 0 0 0 
+state.SEND_FRAME 0 1 1 
+state.PAUSE 1 0 1 

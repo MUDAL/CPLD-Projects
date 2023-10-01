@@ -1,7 +1,0 @@
-
-State Machine - |uart_1|currState
-Name currState.STOP currState.DATA currState.START currState.IDLE 
-currState.IDLE 0 0 0 0 
-currState.START 0 0 1 1 
-currState.DATA 0 1 0 1 
-currState.STOP 1 0 0 1 

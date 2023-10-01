@@ -1,0 +1,41 @@
+|uart_tx
+clk => bit_index[0].CLK
+clk => bit_index[1].CLK
+clk => bit_index[2].CLK
+clk => bit_index[3].CLK
+clk => clk_counter[0].CLK
+clk => clk_counter[1].CLK
+clk => clk_counter[2].CLK
+clk => clk_counter[3].CLK
+clk => clk_counter[4].CLK
+clk => clk_counter[5].CLK
+clk => clk_counter[6].CLK
+clk => clk_counter[7].CLK
+clk => clk_counter[8].CLK
+clk => clk_counter[9].CLK
+clk => clk_counter[10].CLK
+clk => clk_counter[11].CLK
+clk => clk_counter[12].CLK
+clk => clk_counter[13].CLK
+clk => clk_counter[14].CLK
+clk => clk_counter[15].CLK
+clk => clk_counter[16].CLK
+clk => clk_counter[17].CLK
+clk => clk_counter[18].CLK
+clk => clk_counter[19].CLK
+clk => clk_counter[20].CLK
+clk => clk_counter[21].CLK
+clk => clk_counter[22].CLK
+clk => clk_counter[23].CLK
+clk => clk_counter[24].CLK
+clk => clk_counter[25].CLK
+clk => clk_counter[26].CLK
+clk => clk_counter[27].CLK
+clk => clk_counter[28].CLK
+clk => clk_counter[29].CLK
+clk => clk_counter[30].CLK
+clk => clk_counter[31].CLK
+clk => state~1.DATAIN
+data_out <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
